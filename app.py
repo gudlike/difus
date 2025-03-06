@@ -41,7 +41,7 @@ async def chat_completions(request: Request):
     headers = {
         "Content-Type": "application/json",
         # 如果需要认证，在这里添加认证信息
-        "Authorization": "Bearer sk-13d01b2333e642b3ba2e1386193df332"
+        "Authorization": "Bearer sk-13XXXX"
     }
 
     async with httpx.AsyncClient() as client:
